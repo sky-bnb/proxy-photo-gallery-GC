@@ -20,6 +20,7 @@
   "homepage": "https://github.com/sky-bnb/proxy-photo-gallery-GC#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "http-proxy-middleware": "^0.19.1",
     "nodemon": "^1.19.1"
   }
 }

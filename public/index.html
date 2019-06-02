@@ -7,20 +7,59 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link href=“https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap” rel=“stylesheet”>
+  <link rel='stylesheet' href='styles.css'>
+
 </head>
 <body>
+    <div class="topHeader">
+      <div class="skybnblogo">
+        <div >
+          <img class="skylogo" src="skybnb.svg" />
+        </div>
+        <div class="bigSearch">
+          <div class="bigMagnifi">
+            <i class="fas fa-search"></i>
+          </div>
+            <input type="input" class="inputBigBoxy" placeholder="Search" />
+          </div>
+        </div>
+      <div class="signIn">
+        <div class="one">
+          Become a host
+        </div>
+        <div class="one">
+           Help
+        </div>
+        <div class="one">
+          Sign up
+        </div>
+        <div class="two">
+          Log in
+        </div>
+      </div> 
+    </div>
   <div id='photo'></div>
-  <div id='general'></div>
-  <div id='calendar'></div>
-  <div id='booking'></div> 
-  <div id='reviews'></div>
-  <div id='neighborhood'></div>
+  <div class='main-container'>
+    <div class='row-container'>
+      <div class='column-container'>
+        <div id='general'></div>
+        <div class='calendar-div'>
+          <div id='calendar'></div>
+        </div>
+        <div id='reviews'></div>
+        <div id='neighborhood'></div> 
+      </div>
+      <div id='booking'></div> 
+    </div>
+    <div id='moreHomes'></div>
+  </div>
 
-  <script src='http://localhost:3002/bundle.js'></script>
-  <script src='http://localhost:3006/bundle.js'></script>
-  <script src='http://localhost:3003/bundle.js'></script>
-  <script src='http://localhost:3004/bundle.js'></script> 
-  <script src='http://localhost:3001/bundle.js'></script>
-  <script src='http://localhost:3005/bundle.js'></script> 
+  <script src='http://ec2-54-167-221-177.compute-1.amazonaws.com/bundle.js'></script>
+  <script src='http://ec2-13-57-27-127.us-west-1.compute.amazonaws.com/bundle.js'></script>
+  <script src='http://ec2-18-219-214-56.us-east-2.compute.amazonaws.com/bundle.js'></script>
+  <script src='http://ec2-54-241-150-200.us-west-1.compute.amazonaws.com/bundle.js'></script> 
+  <script src='http://ec2-54-219-137-95.us-west-1.compute.amazonaws.com/bundle.js'></script>
+  <script src='http://ec2-52-53-176-52.us-west-1.compute.amazonaws.com/bundle.js'></script>  
+  <script src='http://3.14.81.50/bundle.js'></script>
 </body>
 </html>
