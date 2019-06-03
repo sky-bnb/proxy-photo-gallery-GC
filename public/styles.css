@@ -54,6 +54,7 @@
 .main-container {
   margin-left: 150px;
   margin-right: 150px;
+  padding-top: 20px;;
 }
 
 .calendar-div {
@@ -62,4 +63,9 @@
 
 #booking {
   width: 700vh;
+}
+
+.moreHomes-adjust {
+  display: flex;
+  align-items: center;
 }

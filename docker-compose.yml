@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  proxy-photo-gallery-gc:
+    image: proxy-photo-gallery-gc
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000
